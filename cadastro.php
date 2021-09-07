@@ -18,7 +18,7 @@ if(!file_exists($arquivo)){
 if($_POST["nome"]!="padrão"&&$_POST["cpf"]!="vazio"){ 
 fwrite($conteudo,"\n".$_POST["nome"]."\n".$_POST["cpf"]."\n==========================\n");
 fclose($conteudo);     
-echo "<center><h1>Usuário cadastrado, visite o arquivo CADASTRO.TXT para as informações<center></h1>";
+echo "<center><h1>Visite o arquivo CADASTRO.TXT para ver todos os usuários cadastrados<center></h1>";
 header("refresh:2;url=welcome.php");
 }
 ?>
