@@ -78,7 +78,7 @@ input[type="submit"]{
     <label>Insira o Nome:</label>
     <input type="text" required name="nome" placeholder="Qual o seu nome?">
     <label>Insira o CPF:</label>
-    <input type="number" required name="cpf" require placeholder="Qual o seu CPF">
+    <input type="number" required name="cpf" require placeholder="Qual o seu CPF?">
     <input type="submit" value="CADASTRAR">
 
 
